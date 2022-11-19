@@ -1,0 +1,269 @@
+[{
+  "_id": {
+    "$oid": "63774f8ec98661b505183b67"
+  },
+  "name": "himanshu",
+  "email": "himanshu@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63774fa0c98661b505183b6a"
+  },
+  "name": "aaryan",
+  "email": "aaryan@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63774fabc98661b505183b6d"
+  },
+  "name": "utkarsh",
+  "email": "utkarsh@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63774fb4c98661b505183b70"
+  },
+  "name": "jahnvi",
+  "email": "jahnvi@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63774fbec98661b505183b73"
+  },
+  "name": "nikita",
+  "email": "nikita@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63775ca8550090004d5804cb"
+  },
+  "name": "okok1",
+  "email": "ok@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668766866570"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63775d4ed9978e43790325f5"
+  },
+  "name": "hhhh",
+  "email": "hhhh@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668766947836"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668766947836"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63775de6ee278aba2c5de7b4"
+  },
+  "name": "aab",
+  "email": "6aa@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668767180296"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668767180296"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6377626aee8d1a39d134f7ce"
+  },
+  "name": "uuu",
+  "email": "uu@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768340"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768340"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6377693669ef4abc7911d6dd"
+  },
+  "name": "Jazmin Koch",
+  "email": "your.email+fakedata47520@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6377694469ef4abc7911d6e1"
+  },
+  "name": "Alfredo Jenkins",
+  "email": "your.email+fakedata51966@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637769dc69ef4abc7911d6e4"
+  },
+  "name": "Antonina Kuphal",
+  "email": "your.email+fakedata24113@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637769e369ef4abc7911d6e7"
+  },
+  "name": "Sanford Hudson",
+  "email": "your.email+fakedata37116@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637769e969ef4abc7911d6ea"
+  },
+  "name": "Leilani Howe",
+  "email": "your.email+fakedata86025@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63776a6a69ef4abc7911d71a"
+  },
+  "name": "Marcelino Collier",
+  "email": "your.email+fakedata98510@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63776c9d69ef4abc7911d727"
+  },
+  "name": "Shanel Armstrong",
+  "email": "your.email+fakedata90115@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63776d5c69ef4abc7911d76c"
+  },
+  "name": "Linnie Will",
+  "email": "your.email+fakedata82479@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63776d6469ef4abc7911d76f"
+  },
+  "name": "Scot Osinski",
+  "email": "your.email+fakedata44387@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63776d6869ef4abc7911d772"
+  },
+  "name": "Taya Boyle",
+  "email": "your.email+fakedata53185@gmail.com",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668768893205"
+    }
+  },
+  "__v": 0
+}]
