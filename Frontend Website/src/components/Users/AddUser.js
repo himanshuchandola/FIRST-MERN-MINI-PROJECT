@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 const AddUser = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate = useNavigate();
 
   const saveUser = async (e) => {
@@ -13,6 +14,7 @@ const AddUser = () => {
       await axios.post(`${process.env.REACT_APP_BACKEND_URL}`, {
         name,
         email,
+        password,
       });
       navigate("/");
     } catch (error) {
@@ -33,7 +35,7 @@ const AddUser = () => {
                 className="input"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Name"
+                placeholder="Enter Name"
               />
             </div>
           </div>
@@ -45,7 +47,19 @@ const AddUser = () => {
                 className="input"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="Email"
+                placeholder="Enter Email"
+              />
+            </div>
+          </div>
+          <div className="field">
+            <label className="label">Password</label>
+            <div className="control">
+              <input
+                type="password"
+                className="input"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Enter Password"
               />
             </div>
           </div>
