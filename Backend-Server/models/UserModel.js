@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import bcrypt from "bcrypt";
 
 const User = mongoose.Schema({
   name: {
@@ -9,10 +10,11 @@ const User = mongoose.Schema({
     type: String,
     required: true,
   },
-  image: {
+  password: {
     type: String,
     required: true,
   },
+
   createdAt: {
     type: Date,
     default: Date.now(),
@@ -21,6 +23,16 @@ const User = mongoose.Schema({
     type: Date,
     default: Date.now(),
   },
+});
+
+// HASHING PASSWORD
+
+User.pre("save", async function (next) {
+  if (this.isModified("password")) {
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+  }
+  next();
 });
 
 export default mongoose.model("Users", User);
